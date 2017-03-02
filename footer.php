@@ -1,5 +1,3 @@
-
-
 		<footer class="footer">
 			
 			<section class="footer__container">
