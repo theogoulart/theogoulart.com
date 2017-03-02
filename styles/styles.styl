@@ -1,0 +1,126 @@
+
+/* ---------VARIABLES---------------------------------*/
+	
+
+
+	ftr-media-size = 60px
+	ftr-media-margin = 30px
+	ftr-border-color = #e4e4e4
+
+
+
+/* ---------HEADER---------------------------------*/
+	
+		brand-color = #D1D652
+
+			body {
+				font-family: helvetica;
+				margin: 0px;
+			}
+
+			.header {
+				background-color: #000;
+				position: fixed;
+				top:0;
+				width: 100%;
+				opacity: 0.9;
+			}
+
+			.header__container {			
+				float: left;	
+				margin: 0px;
+				width: 100%;
+				margin: 15 30 17 30;
+			}
+
+			.navbar {
+				width: 800px;
+				margin: 0 auto;
+				list-style-type: none;
+			}
+
+
+			.brand{
+				float: left;
+				margin: 0px;
+				margin-left: 30px;
+				font-size: 180%;
+				font-family: 'Overlock', cursive;
+				color: brand-color;
+			}	
+
+			.menu__item {
+				margin-left: 100px;
+				margin-top: 10px;
+				float: left;
+				color: white;
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+
+/* ---------BODY---------------------------------*/
+
+			.content__container {
+				margin: 0 auto;
+				margin-top: 120px;
+				width: 70%;
+				min-height: calc(100% - 270px)
+			}
+
+			.form__container {
+				text-align: center;
+				margin: 0 auto;
+				width: 70%;
+			}
+
+			.form__contact-header {
+				font-size: 200%;
+				margin: 60 0;
+			}
+
+			.form__text-input {
+				width: 45%;
+			}
+
+			#form__message {
+				width: 100%;
+				height: 300px;
+				margin: 10px;
+				resize: none;
+			}
+
+/* ---------FOOTER---------------------------------*/
+	
+
+			.footer {
+				border-top: 2px solid ftr-border-color;
+				height: 100px;
+				width: 100%;
+			}
+
+			.footer__credits {
+				float: left;
+				margin: 0;	
+				margin: ftr-media-margin + 15 ftr-media-margin;
+			}
+
+			.footer__container {
+				margin: 0 auto;
+				width: 1000px;
+			}
+
+			.social-media {
+				margin: 0 auto;
+				width: ftr-media-size *3 + ftr-media-margin *6 + 20;
+				list-style-type: none;
+				overflow: hidden;
+				float: left;
+			}
+
+			.social-media__item {
+				float: left;
+				margin: ftr-media-margin;
+				height: ftr-media-size;
+				width: ftr-media-size; 
+			}
